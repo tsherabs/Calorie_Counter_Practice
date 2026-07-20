@@ -8,7 +8,7 @@
     <body>
         <h1>This is a Calorie Counter</h1>
         <div class = "container">
-            <form id "calorie-counter">
+            <form id = "calorie-counter">
                 <label for = "calorie-input">Budget</label>
                 <input id = "calorie-input"
                 type = "number"
@@ -30,8 +30,8 @@
                     <legend>Exercise</legend>
                 </fieldset>
                 <div class="controls">
-                <label for="add-food-exercise">Add food or exercise</label>
-                <select id = "add-food-exercise">
+                <label for="entryDropdown">Add food or exercise</label>
+                <select id = "entryDropdown">
                     <option value="breakfast" selected>Breakfast</option>
                     <option value="lunch">Lunch</option>
                     <option value="dinner">Dinner</option>
@@ -42,7 +42,7 @@
                 <div> 
                 </div>
                 <button type="submit">Calculate Remaining Calories</button>
-                <button type="clear">Clear</button>
+                <button id="clear">Clear</button>
                 </div>
             </form>
             <div id = "output" class="output hide"></div>
