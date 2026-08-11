@@ -30,5 +30,5 @@ function addEntry(){
     targetInputContainer.insertAdjacentHTML('beforeend', HTMLString); 
 }
 
-addEntryBtn.addEventListener('click', addEntry); 
+addEntryBtn.addEventListener('click', addEntry)
 
